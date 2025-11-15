@@ -1,0 +1,4 @@
+name = "GLSL"
+grammar = "glsl"
+path_suffixes = ["glsl"]
+# line_comments = ["# "]

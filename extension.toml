@@ -1,0 +1,13 @@
+# extension.toml
+# See: https://crates.io/crates/zed_extension_api
+id = "shaders"
+name = "Shaders"
+schema_version = 1
+version = "0.0.1"
+authors = ["Samuel Cristobal<samu@messy.page>"]
+description = "Shaders support for Zed."
+repository = "https://github.com/notpeter/shaders-zed-extension"
+
+[grammars.glsl]
+repository = "https://github.com/tree-sitter-grammars/tree-sitter-glsl"
+commit = "24a6c8ef698e4480fecf8340d771fbcb5de8fbb4"
